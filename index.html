@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YnBloxx</title>
+    <link rel="stylesheet" href="assets/style/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+    <!-- navbar -->
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg bg-navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold text-color-new ms-5" href="#">YnBloxx</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- main section -->
+    <section class="topup pt-5 mt-5">
+        <div class="container-fluid d-flex justify-content-center align-items-center flex-column">
+            <div class="images">
+                <img src="assets/images/banner.png" >
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <ul class="nav nav-tabs gap-2 border-0" id="myTab" role="tablist">
+                        <li class="nav-item presentation" role="presentation">
+                            <button class="nav-link active" id="gamepass-tab" data-bs-toggle="tab" data-bs-target="#gamepass-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Gamepass</button>
+                        </li>
+                        <li class="nav-item presentation" role="presentation">
+                            <button class="nav-link" id="fruit-tab" data-bs-toggle="tab" data-bs-target="#fruit-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Fruit Permanent</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-body">
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="gamepass-tab-pane" role="tabpanel" aria-labelledby="gamepass-tab" tabindex="0">
+                            <form action="#">
+                                <!-- data diri user -->
+                                <div class="mb-3 user">
+                                    <label for="form-data" class="pb-3 text-white">1. Masukan Data Roblox Anda</label>
+                                    <div class="btnn d-flex">
+                                        <div class="input-group w-75 ">
+                                            <span class="input-group-text"><i class="bi bi-person-circle"></i></span>
+                                            <input type="text" class="form-control shadow-none border-0 namauser" id="form-data" placeholder="masukan username roblox anda" required value="">
+                                        </div>
+                                        <button type="submit" class="btn btn-primary ms-2 btn-click">Check Username</button>
+                                    </div>
+                                </div>
+                            </form>
+
+                            <!-- itemss -->
+                            <div class="items pt-4">
+                                <label for="form-data" class="pb-1 text-white">2. Pilih Gamepass</label>
+                                <div class="more-items ">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="card card-items ">
+                                                    <h5 class="card-title ">Fast Boat</h5>
+                                                    <h6 class="card-subtitle ">Rp. 23.000</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="card card-items">
+                                                <h5 class="card-title ">2x Drop Changes</h5>
+                                                <h6 class="card-subtitle">Rp. 21.000</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="card card-items">
+                                                <h5 class="card-title ">2x Money</h5>
+                                                <h6 class="card-subtitle">Rp. 25.000</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="card card-items">
+                                                <h5 class="card-title ">2x Mastery</h5>
+                                                <h6 class="card-subtitle">Rp. 24.000</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="card card-items">
+                                                <h5 class="card-title ">+1 Fruit Storage</h5>
+                                                <h6 class="card-subtitle">Rp. 30.000</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="card card-items">
+                                                <h5 class="card-title ">Dark Blade</h5>
+                                                <h6 class="card-subtitle">Rp. 31.000</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="card card-items">
+                                                <h5 class="card-title ">Fruit Notifier</h5>
+                                                <h6 class="card-subtitle">Rp. 200.000</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- methode bayar -->
+                            <div class="methode-bayar pt-4">
+                                <label class="pb-1 pb-3 text-white">3. Pilih Metode Pembayaran</label>
+                                <div class="accordion" id="accordionPanelsStayOpenExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                                E - Wallet
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                                            <div class="accordion-body">
+                                                <div class="images-method d-flex gap-2">
+                                                    <img src="https://bullstore.id/assets/images/method/1699675770_b0f5fda6237eea0dc23e.png" class="wallet">
+                                                    <img src="https://bullstore.id/assets/images/method/1699675858_9fbc263a2e96d55f6959.png" class="wallet">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- btn bayar -->
+                            <div class="bayar-lurd pt-5 mt-2 d-flex justify-content-center">
+                                <button type="button" class="btn btn-byr border-0"> Bayar Sekarang</button>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="fruit-tab-pane" role="tabpanel" aria-labelledby="fruit-tab" tabindex="0">                            
+                            <form action="#">
+                                <!-- data diri user -->
+                                <div class="mb-3 user">
+                                    <label for="form-data" class="pb-3 text-white">1. Masukan Data Roblox Anda</label>
+                                    <div class="btnn d-flex">
+                                        <div class="input-group w-75 ">
+                                            <span class="input-group-text"><i class="bi bi-person-circle"></i></span>
+                                            <input type="text" class="form-control shadow-none border-0 namauser" id="form-data" placeholder="masukan username roblox anda" required value="">
+                                        </div>
+                                        <button type="submit" class="btn btn-primary ms-2 btn-click">Check Username</button>
+                                    </div>
+                                </div>
+                            </form>
+
+                            <!-- itemss -->
+                            <div class="items pt-4">
+                                <label for="form-data" class="pb-1 text-white">2. Pilih Fruit Permanent</label>
+                                <div class="more-items ">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="card card-items ">
+                                                    <h5 class="card-title ">Rocket (Natural)</h5>
+                                                    <h6 class="card-subtitle ">Rp. 4.000</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="card card-items">
+                                                <h5 class="card-title ">Spin (Natural)</h5>
+                                                <h6 class="card-subtitle">Rp. 5.000</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="card card-items">
+                                                <h5 class="card-title ">Chop (Natural)</h5>
+                                                <h6 class="card-subtitle">Rp. 7.000</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="card card-items">
+                                                <h5 class="card-title ">Spring (Natural)</h5>
+                                                <h6 class="card-subtitle">Rp. 12.000</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="card card-items">
+                                                <h5 class="card-title ">Bomb (Natural)</h5>
+                                                <h6 class="card-subtitle">Rp. 12.000</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="card card-items">
+                                                <h5 class="card-title ">Smoke (Elemental)</h5>
+                                                <h6 class="card-subtitle">Rp. 17.000</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="card card-items">
+                                                <h5 class="card-title ">Spike (Natural)</h5>
+                                                <h6 class="card-subtitle">Rp. 25.000</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="card card-items">
+                                                <h5 class="card-title ">Dragon (Beast)</h5>
+                                                <h6 class="card-subtitle">Rp. 190.000</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- methode bayar -->
+                            <div class="methode-bayar pt-4">
+                                <label class="pb-1 pb-3 text-white">3. Pilih Metode Pembayaran</label>
+                                <div class="accordion" id="accordionPanelsStayOpenExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                                E - Wallet
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                                            <div class="accordion-body">
+                                                <div class="images-method d-flex gap-2">
+                                                    <img src="https://bullstore.id/assets/images/method/1699675770_b0f5fda6237eea0dc23e.png" class="wallet">
+                                                    <img src="https://bullstore.id/assets/images/method/1699675858_9fbc263a2e96d55f6959.png" class="wallet">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- btn bayar -->
+                            <div class="bayar-lurd pt-5 mt-2 d-flex justify-content-center">
+                                <button type="button" class="btn btn-byr border-0"> Bayar Sekarang</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>

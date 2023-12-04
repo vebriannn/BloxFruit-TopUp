@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    color: black;
+}
+
+body{
+    background-color: #E9EAEE !important;
+    height: max-content;
+    padding-bottom: 80px;
+}
+
+.bg-navbar {
+    background-color: #E9EAEE;
+}
+
+.navbar-brand {
+    color: #0085BF !important;
+}
+
+/* section topup */
+
+.topup .images {
+    width: 80%;
+    height: 240px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.topup .images img {
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    margin-top: -20px;
+}
+
+.topup .card {
+    margin-top: 30px;
+    width: 80%;
+    height: max-content;
+    background: transparent;
+    border: 0;
+}
+
+.topup .card .card-header {
+    background-color: transparent;
+    padding: 20px;
+    padding-bottom: 0;
+    border: 0;
+    padding-left: 0;
+}
+
+.nav-tabs .nav-link {
+    background-color: white;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #003F5A !important;
+    color: white !important;
+}
+
+.nav-tabs, .nav-tabs .nav-link.active, .nav-tabs .nav-link:hover{
+    border-color: #003F5A !important;
+}
+
+.topup .card .card-body {
+    padding: 60px 60px;
+    background-color: #003F5A;
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+}
+
+.btn-primary{
+    background: transparent !important;
+    border: 2px solid #202739 !important;
+}
+
+.btn-primary:hover {
+    background-color: #202739 !important;
+    border: 2px solid #202739 !important;
+}
+
+.input-group-text {
+    border: 0 !important;
+    border-right: 2px solid #202739 !important;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.user, .items {
+    padding-bottom: 30px;
+    border-bottom: 2px solid white;
+}
+
+.card-items {
+    background-color: white !important;
+    width: 100% !important;
+    padding: 10px 10px;
+    height: max-content !important;
+    margin: 0 auto;
+    transition: 0.3s ease-in-out;
+}
+
+.card-items:hover {
+    cursor: pointer;
+}
+
+.actived-card {
+    background-color: #202739 !important;
+    color: white !important;
+}
+
+.card-title {
+    font-size: 14px !important;
+}
+
+.card-subtitle {
+    font-size: 12px !important;
+}
+
+.accordion-item {
+    background-color: white !important;
+}
+
+.wallet {
+    width: 80px;
+    height: auto;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+
+.wallet:hover {
+    cursor: pointer;
+}
+
+.actived-wallet {
+    border: 2px solid #0085BF;
+    border-radius: 10px;
+}
+
+.btn-byr {
+    background-color: #202739 !important;
+    color: white !important;
+    padding: 10px 40px !important;
+    transition: 0.3s ease-in-out;
+}
