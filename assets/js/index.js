@@ -13,6 +13,9 @@ document.querySelectorAll('.presentation').forEach(reset => {
         pembayaran.forEach(check => {
             check.classList.remove('actived-wallet');
         })
+        
+        kondisi = false
+        
         document.querySelectorAll(".namauser").forEach(item => {
             item.value = ''
             nama = false
